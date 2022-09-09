@@ -15,4 +15,5 @@ In de integratiefase voer je de aanpassingen door zodat iedereen ze kan zien.
 - Testen:
 In de testfase controleer je of jouw aanpassingen werken zoals bedoeld.
 
-
+Het is de bedoeling om de basis HTML, CSS en visuele hierarchie toe te passen op je visitekaartje.
+De visuele hierarchie kun je bereiken op manieren zoals: grootte, kleur/contrast, witruimte en positie op het scherm.
