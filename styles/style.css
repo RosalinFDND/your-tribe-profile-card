@@ -8,11 +8,11 @@ html {
 
 body {
   height:100vh;
-  font-family: open sans;
+  font-family: Arial, Helvetica, sans-serif;
   display:flex;
   justify-content:center;
   align-items:center;
-  color:#fff0d9;
+  color:#ffffff;
 }
 
 article {
@@ -23,8 +23,8 @@ article {
   flex-direction:column;
   align-items:center;
   justify-content:flex-end;
-  background: rgb(255, 228, 217);
-  background: linear-gradient(0deg, rgba(0,239,255,1) 40%, #4e54c8 100%);
+  background: rgb(255, 154, 143);
+  background: linear-gradient(0deg, rgba(255, 154, 143) 40%, ##ffe4d9 100%);
   box-shadow:0 0 20px 20px rgba(0,0,0,.1);
   border-radius:1rem;
   position: relative;
@@ -41,8 +41,14 @@ header {
 }
 
 h1 {
+  font-family: sans-serif;
   margin:2rem 0 1rem;
-  color: rgba(0,239,255,1);
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+
+h2 {
+  color:#ba827b;
 }
 
 button {
@@ -60,14 +66,14 @@ button {
 }
 button:focus {
   outline:none;
-  background:#ffa08f;
+  background:#ffffff;
 }
 button:focus svg {
-  stroke: rgb(252, 184, 160);
+  stroke: rgb(186, 101, 102);
 }
 
 svg {
-  stroke: #4e54c8;
+  stroke: #ba827b;
   position: absolute;
   top:calc(1.25rem - 12px);
   left:calc(1.25rem - 12px);
@@ -90,15 +96,15 @@ img {
 
 dl {
   width:100%;
-  background: rgb(255,255,255);
+  background: rgb(255, 228, 217);
   
-  display:grid;
+  display:inline-block;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
     "html-dd css-dd js-dd"
     "html-dt css-dt js-dt"
     ;
-  justify-items:center;
+  justify-items:left;
   align-items:start;
   padding:5rem 0 3rem;
   margin-top: -3rem;
@@ -108,7 +114,7 @@ dl {
 
 dt{
   font-weight: bold;
-  border-top: 1px solid rgba(0,0,0,0.3);
+  border-top: 1px solid rgba(255, 228, 217);
   padding-top: .25rem;
   margin-top: .25rem;
 }
@@ -118,7 +124,7 @@ dt:nth-of-type(3){ grid-area: js-dt; }
 
 dd {
   margin:0;
-  padding-left:.3rem;
+  padding-left:.2rem;
   transition:.25s .3s;
 }
 dd:nth-of-type(2){  
@@ -164,4 +170,9 @@ body.expand dd {
 
 body.expand img {
   width:15em;
+}
+
+div{
+  width: 100px;
+  height: 100px;
 }
