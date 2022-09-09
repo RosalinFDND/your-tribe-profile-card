@@ -1,0 +1,37 @@
+article {
+    width:70vw;
+    min-width:20em;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    height: 60vh    ;
+    background: rgb(255, 154, 143);
+    background: linear-gradient(0deg, rgba(255, 154, 143) 40%, ##ffe4d9 100%);
+    box-shadow:0 0 20px 20px rgba(0,0,0,.1);
+    border-radius:1rem;
+    position: relative;
+    transition:.25s;
+  }
+
+div{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em; 
+}
+#skills{
+    background-color: #ffb39e;
+    padding: 1em;
+}
+#eigenschappen{
+    background-color: #ffb39e;
+    width: 50px;
+}
+
+dl{
+    padding: 1em
+}
